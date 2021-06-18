@@ -10,24 +10,32 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-    
+#navbar {
+    background-color: rgb(102, 91, 79);
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
+#navbar ul{
+    display: flex;
 }
 
-nav ul {
-    display: inline-block;
-    list-style-type: none;
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 23px;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border: 12px solid white;
+    border-radius: 10px;
 }
