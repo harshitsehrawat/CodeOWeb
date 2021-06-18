@@ -10,32 +10,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#navbar {
-    background-color: rgb(102, 91, 79);
-    display: inline;
-    align-items: center;
-    padding: 6px;
-}
-
-#navbar ul{
-    display: flex;
-}
-
-
-#navbar ul li{
-    list-style: none;
-    font-size: 1.3rem;
-    padding: 23px;
-}
-
-#navbar ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-#navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    border: 12px solid white;
-    border-radius: 10px;
+.container-fluid{
+    background-color: rgb(218, 214, 210);
 }
