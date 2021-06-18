@@ -14,7 +14,7 @@ body {
     background-color: rgb(102, 91, 79);
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 6px;
 }
 
 #navbar ul{
