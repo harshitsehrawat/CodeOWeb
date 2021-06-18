@@ -12,7 +12,7 @@ body {
 
 #navbar {
     background-color: rgb(102, 91, 79);
-    display: flex;
+    display: inline;
     align-items: center;
     padding: 6px;
 }
