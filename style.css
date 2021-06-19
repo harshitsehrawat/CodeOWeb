@@ -156,3 +156,8 @@ p.copyright {
 
 
   /* end of sidebar */
+
+/* start of dropdown menu icons */
+.dropdown-menu img{
+    height: 35px;
+}
