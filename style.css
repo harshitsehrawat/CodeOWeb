@@ -152,6 +152,8 @@ p.copyright {
 
 
 .container-fluid{
+    position: absolute;
+    top: 0;
     background-color: #24262b;
 }
 
@@ -189,6 +191,13 @@ p.copyright {
 .dropdown-menu img{
     height: 35px;
     padding-right: 12px;
+}
+.title{
+    text-align: center;
+    margin: 20px auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
 }
 
 
