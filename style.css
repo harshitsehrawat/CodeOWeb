@@ -37,6 +37,7 @@
 body{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    overflow-x: clip;
 }
 *{
     margin: 0;
@@ -144,6 +145,7 @@ p.copyright {
 .container-fluid{
     position: absolute;
     top: 0;
+    right: 0;
     background-color: #24262b;
 }
 
