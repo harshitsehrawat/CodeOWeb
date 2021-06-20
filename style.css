@@ -10,11 +10,20 @@ body {
     font-family: 'Poppins', sans-serif;
 } */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 #navbar {
     background-color: rgb(102, 91, 79);
     display: flex;
     align-items: center;
     padding: 6px;
+    /* position: absolute;
+    z-index: -1;
+    top: 12px; */
 }
 
 #navbar ul{

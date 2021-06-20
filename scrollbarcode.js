@@ -14,7 +14,7 @@ const buttonRight = document.getElementById('slideRight');
     };
     let rft=lft;
     buttonLeft.onclick = function () {
-      rft=rft-screen.width);
+      rft=(rft-screen.width);
       if(rft<0){
         rft =(5*screenwidth);
       }
