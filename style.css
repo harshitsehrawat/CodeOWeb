@@ -1,20 +1,22 @@
 
+/* 
+
+body {
+    font-family: 'Poppins', sans-serif;
+} */
 /* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
 } */
-
 #navbar {
     background-color: rgb(102, 91, 79);
     display: flex;
     align-items: center;
     padding: 6px;
+    margin: 0;
+  
 }
 
 #navbar ul{
