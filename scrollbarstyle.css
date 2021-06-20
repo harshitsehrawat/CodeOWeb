@@ -1,0 +1,52 @@
+#container {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    overflow-x: hidden;
+    box-sizing: content-box;
+  }
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 100%;
+   
+  }
+  
+  #slide-1{
+    background-color: red;
+  }
+  #slide-2{
+    background-color:yellow;
+  }
+  #slide-3{
+    background-color: green;
+  }
+  #slide-4{
+    background-color: blue;
+  }
+  #slide-5{
+    background-color: pink;
+  }
+ 
+  .btn{
+    margin: 12px;
+    padding: 13px;
+    size: 15px;
+    width: 55px;
+    height: 59px;
+    border-radius: 27px;
+    outline: none;
+    background: transparent;
+    color: white;
+    border: none;
+  }
+  #slideLeft{
+    position: absolute;
+    top: 209px;
+    left: 12px;
+  }
+  #slideRight{
+    position: absolute;
+    top: 209px;
+    right: 12px;
+  }

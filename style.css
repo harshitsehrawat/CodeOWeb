@@ -39,6 +39,10 @@ body {
     border: 12px solid white;
     border-radius: 10px;
 }
+/* #navbar::before{
+    content: "";
+
+} */
 /* footer start */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
