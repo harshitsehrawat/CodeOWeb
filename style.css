@@ -150,6 +150,8 @@ p.copyright {
 
 
 .container-fluid{
+    position: absolute;
+    top: 0;
     background-color: #24262b;
 }
 
