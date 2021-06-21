@@ -313,7 +313,7 @@ p.copyright {
     }
     /* scrollbar end */
 
-    /* process menu */
+/* process menu */
 .process-title{
     text-align: center;
     margin: 20px auto 36px;
@@ -387,4 +387,11 @@ p.copyright {
 }
 .rating .fa{
     color: #e61073;
+}
+
+@media(max-width: 1140px){
+    .process .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
