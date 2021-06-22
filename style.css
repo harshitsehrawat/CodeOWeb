@@ -386,62 +386,35 @@ p.copyright {
 /* testimonial end */
 
 /* scroll bar start  */
-/* *{
-    margin: 0px;
-    padding: 0px;
-  } */
+
   #container {
       width: 100vw;
-      height: 500px;
+      /* height: 500px; */
+      height: 100vh;
       display: flex;
       overflow-x: hidden;
       box-sizing: content-box;
+      background-color: #00d9ff;
+      animation: slider 30s infinite linear;
     }
-    .slide {
-      width: 100%;
-      flex-shrink: 0;
-      height: 100%;
-     
+    @keyframes slider{
+        0%{
+            background-color: orange;
+                }
+                25%{
+            background-color: indigo;
+                }
+                50%{
+            background-color: indianred;
+                }
+                75%{
+            background-color: hotpink;
+                }
+                100%{
+                  background-color: greenyellow;
+                }
     }
     
-    #slide-1{
-      background-color: red;
-    }
-    #slide-2{
-      background-color:yellow;
-    }
-    #slide-3{
-      background-color: green;
-    }
-    #slide-4{
-      background-color: blue;
-    }
-    #slide-5{
-      background-color: pink;
-    }
-   
-    .btn{
-      margin: 12px;
-      padding: 13px;
-      size: 15px;
-      width: 55px;
-      height: 59px;
-      border-radius: 27px;
-      outline: none;
-      background: transparent;
-      color: white;
-      border: none;
-    }
-    #slideLeft{
-      position: absolute;
-      top: 209px;
-      left: 12px;
-    }
-    #slideRight{
-      position: absolute;
-      top: 209px;
-      right: 12px;
-    }
     /* scrollbar end */
 
 /* process menu */
