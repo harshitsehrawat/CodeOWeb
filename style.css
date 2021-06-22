@@ -149,10 +149,6 @@ p.copyright {
     background-color: #11dbcf;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-    background-color: #11dbcf;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: rgb(236 234 234 / 55%);
 }
@@ -174,7 +170,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 }
 
 .btn-outline-success {
-    /* background-color: #f0ebeb;  */
+    background-color: #f0ebeb; 
     color: #198754;
     border-color: #198754;
 }
