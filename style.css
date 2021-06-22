@@ -1,5 +1,13 @@
 
-
+/* *{
+    position: absolute;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* position: relative; */
+}
 #navbar {
     background-color: rgb(102, 91, 79);
     display: flex;
@@ -39,11 +47,7 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: clip;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .container{
     max-width: 1170px;
     
@@ -258,6 +262,7 @@ p.copyright {
 	background-color:#11dbcf;
 	min-height: 100vh;
 	padding:70px 15px 30px;
+    
 }
 
 .container{
@@ -277,6 +282,7 @@ p.copyright {
 }
 
 .team-section .section-title h1{
+    position: relative;
 	font-size: 40px;
 	text-align: center;
 	margin:0;
@@ -289,6 +295,7 @@ p.copyright {
 	text-align: center;
 	margin:15px 0 0;
 	color:#ffffff;
+    position: relative;
 }
 .team-section .team-items{
 	
@@ -303,6 +310,7 @@ p.copyright {
  max-width: calc(25% - 30px);
  transition: all .5s ease;
  margin-bottom: 40px;
+ position: relative;
 }
 .team-section .team-items .item img{
 	display: block;
