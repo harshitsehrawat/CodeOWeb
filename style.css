@@ -268,6 +268,7 @@ p.copyright {
 .container{
 	max-width: 1170px;
 	margin:auto;
+    /* background: linear-gradient(#11dbcf,#e61073); */
 }
 
 .row{
@@ -324,7 +325,8 @@ p.copyright {
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#11dbcf;
+	/* background-color:#11dbcf; */
+    background: linear-gradient(#11dbcf,#e61073);
 	text-align: center;
 	padding: 20px 15px;
 	border-radius:8px;
@@ -403,6 +405,7 @@ p.copyright {
       overflow-x: hidden;
       box-sizing: content-box;
       background-color: #00d9ff;
+     
       animation: slider 30s infinite linear;
     }
     @keyframes slider{
