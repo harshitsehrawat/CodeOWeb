@@ -146,7 +146,11 @@ p.copyright {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #24262b;
+    background-color: #11dbcf;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: #11dbcf;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -170,7 +174,7 @@ p.copyright {
 }
 
 .btn-outline-success {
-    background-color: #f0ebeb;
+    /* background-color: #f0ebeb;  */
     color: #198754;
     border-color: #198754;
 }
@@ -337,7 +341,7 @@ p.copyright {
 }
 .process{
     padding-top: 10px;
-    background-color: #3c3d42;
+    /* background-color: #3c3d42; */
 }
 
 .process .row{
