@@ -1,16 +1,19 @@
 nav{
     background-color: purple;
+    margin-bottom: 0rem;
+
 }
-ul{
+.navbar ul{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50rem;
 }
-ul li{
+.navbar ul li{
     list-style: none;
 }
-ul li a{
+.navbar ul li a{
     position: relative;
     color: #fff;
     font-size: 1em;
@@ -26,7 +29,7 @@ ul li a{
     overflow: hidden;
     backdrop-filter: blur(15px);
 }
-ul li a::before{
+.navbar ul li a::before{
     content: '';
     position: absolute;
     top: 0;
@@ -35,11 +38,11 @@ ul li a::before{
     height: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
-ul li:first-child a{
+.navbar ul li:first-child a{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-ul li:nth-last-child(2) a{
+.navbar ul li:nth-last-child(2) a{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
