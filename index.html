@@ -352,6 +352,22 @@
     integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
     crossorigin="anonymous"></script>
 
+    <!-- navbar script -->
+    <script>
+      const marker = document.querySelector('#marker');
+      const item = document.querySelectorAll('ul li a');
+  
+      function Indicator(e){
+        marker.style.left = e.offsetLeft+'px';
+        marker.style.width = e.offsetWidth+'px';
+      }
+  
+      item.forEach((link) => {
+        link.addEventListener('mousemove', (e)=>{
+          Indicator(e.target);
+        })
+      });
+    </script>
 </body>
 
 </html>

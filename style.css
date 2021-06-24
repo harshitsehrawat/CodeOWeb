@@ -1,4 +1,6 @@
-
+nav{
+    background-color: purple;
+}
 ul{
     position: relative;
     display: flex;
