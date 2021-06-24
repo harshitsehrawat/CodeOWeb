@@ -1,10 +1,18 @@
 nav{
-    background-color: purple;
     margin-bottom: 0rem;
+}
+/* .nav::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+} */
+.navbar{
+    position: absolute;
+    top: 34px;
 
 }
 .navbar ul{
-    position: relative;
+    
     display: flex;
     justify-content: center;
     align-items: center;
