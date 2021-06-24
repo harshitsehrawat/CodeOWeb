@@ -326,7 +326,8 @@ p.copyright {
 }
 .team-section .team-items .item .inner .info{
 	/* background-color:#11dbcf; */
-    background: linear-gradient(#11dbcf,#e61073);
+    /* background: linear-gradient(#11dbcf,#e61073); */
+    background: linear-gradient(red,orange);
 	text-align: center;
 	padding: 20px 15px;
 	border-radius:8px;
