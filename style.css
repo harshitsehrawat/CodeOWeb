@@ -27,7 +27,7 @@ nav{
     font-size: 1em;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 19px 20px;
     font-weight: 300;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -36,6 +36,7 @@ nav{
     z-index: 1000;
     overflow: hidden;
     backdrop-filter: blur(15px);
+    height: 63px;
 }
 .navbar ul li a::before{
     content: '';
@@ -58,7 +59,7 @@ nav{
     position: absolute;
     top: 0;
     width: 41px;
-    height: 41px;
+    height: 71px;
     z-index: 1;
     transition: 0.5s;
 }
@@ -68,8 +69,8 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
+    width: 69px;
+    height: 85px;
     background: #5da6ff;
     border-radius: 50%;
     box-shadow: 0 0 15px #5da6ff,
