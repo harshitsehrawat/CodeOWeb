@@ -742,8 +742,8 @@ p.copyright {
 
 /* services section start */
 #services-section{
-    /* position: relative; */
-    width: 100vw;
+    position: relative;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -751,130 +751,124 @@ p.copyright {
     background: #2196f3;
     overflow: hidden;
 }
-/* imported */
 .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    border: 2px solid red;
   }
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 320px;
-    /* background: #fff; */
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
     filter: blur(4px);
     background: #d1ebff;
     border-radius: 10px;
   }
+  .swiper-slide-active{
+    filter: blur(0px);
+  }
+
   .swiper-slide img {
     display: block;
     width: 100%;
   }
-  .swiper-slide-active{
-    filter: blur(0px);
-  }
-  /* imported */
-
-.servicesBox{
-  position: relative;
-  width: 100%;
-  padding: 20px;
-  padding-bottom: 0px;
-  padding-top: 90px;
-  color: #999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* border: 2px solid pink; */
-  /* background: linear-gradient(orange,purple); */
-  
-}
-.servicesBox .details h3{
- 
-  color: black;
-  font-weight: bold;
-  position: absolute;
-    top: 8px;
-    display: block;
+  .servicesBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 90px;
+    color: #999;
+    display: flex;
     justify-content: center;
     align-items: center;
-    left: 3.5rem;
-    letter-spacing: 3px;
-    font-size: 20px;
-}
-.servicesBox .details .imgBox{
-  width: 320px;
-    height: 320px;
-    height: 26rem;
-    margin: -23px 16px;
+    flex-direction: column;
+   
+  }
+  .servicesBox .details h3{
+ 
+    color: black;
+    font-weight: bold;
+    position: absolute;
+      top: 8px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      left: 3.5rem;
+      letter-spacing: 3px;
+      font-size: 20px;
+  }
+  .servicesBox .details .imgBox{
+    width: 320px;
+      height: 320px;
+      height: 26rem;
+      margin: -23px 16px;
+    
+  }
+  .servicesBox  .content p{
+    margin: 21px -22px;
+      text-align: center;
+      padding-top: 18px;
+      padding-left: 10px;
+      padding-right: 10px;
+   
+  }
+  .servicesBox .details #imgBox-1{
   
-}
-.servicesBox  .content p{
-  margin: 21px -22px;
-    text-align: center;
-    padding-top: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* color: black; */
-}
-.servicesBox .details #imgBox-1{
-  
-  background-image: url('pics/ambulance.jpg');
-  background-repeat: no-repeat;
- background-size: contain;
- background-size: cover;
- background-position: center;
- box-shadow: 0px 2px 10px rgb(119 120 72);
-}
-.servicesBox .details #imgBox-2{
-  background-image: url('pics/pwd.jpg');
-  background-repeat: no-repeat;
- background-size: contain;
- background-size: cover;
- background-position: center;
- box-shadow: 0px 2px 10px rgb(224 165 108);
-}
-.servicesBox .details #imgBox-3{
-  background-image: url('pics/medications.jpg');
-  background-repeat: no-repeat;
- background-size: contain;
- background-size: cover;
- background-position: center;
- box-shadow: 0px 2px 10px rgb(168 157 139);
-}
-.servicesBox .details #imgBox-4{
-  background-image: url('pics/petrescue.jpg');
-  background-repeat: no-repeat;
- background-size: contain;
- background-size: cover;
- background-position: center;
- box-shadow: 0px 2px 10px rgb(237 222 207);
-}
-.servicesBox .details #imgBox-5{
-  background-image: url('pics/enjoyment.jpg');
-  background-repeat: no-repeat;
- background-size: contain;
- background-size: cover;
- background-position: center;
- box-shadow: 0px 2px 10px rgb(175 113 65);
-}
-.servicesBox .details #imgBox-6{
-  
-  background-image: url('pics/resc.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: cover;
-  box-shadow: 0px 2px 10px rgb(119 120 72);
-}
-.swiper-container-3d .swiper-slide-shadow-left,
+    background-image: url('pics/ambulance.jpg');
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 2px 10px rgb(119 120 72);
+  }
+  .servicesBox .details #imgBox-2{
+    background-image: url('pics/pwd.jpg');
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 2px 10px rgb(224 165 108);
+  }
+  .servicesBox .details #imgBox-3{
+    background-image: url('pics/medications.jpg');
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 2px 10px rgb(168 157 139);
+  }
+  .servicesBox .details #imgBox-4{
+    background-image: url('pics/petrescue.jpg');
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 2px 10px rgb(237 222 207);
+  }
+  .servicesBox .details #imgBox-5{
+    background-image: url('pics/enjoyment.jpg');
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 2px 10px rgb(175 113 65);
+  }
+  .servicesBox .details #imgBox-6{
+    
+    background-image: url('pics/resc.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    box-shadow: 0px 2px 10px rgb(119 120 72);
+  }
+  .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right{
   background-image: none;
 }
-  
+/* services section end */
 
 /* contact form start */
 
