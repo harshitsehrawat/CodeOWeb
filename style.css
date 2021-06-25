@@ -721,7 +721,8 @@ p.copyright {
     content: '';
     position: absolute;
     left: 26%;
-    transform: translateX(-38%);
+    top: 318px;
+    transform: translate(-38%, -80%);
     bottom: -5px;
     width: 30px;
     height: 10px;
