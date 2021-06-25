@@ -351,6 +351,7 @@ p.copyright {
 	flex-basis: 100%;
 	max-width: 100%;
 	margin-bottom: 70px;
+    position: relative;
 }
 
 .team-section .section-title h1{
@@ -359,6 +360,7 @@ p.copyright {
 	margin:0;
 	color: #ffffff;
 	font-weight: 700;
+    position: relative;
 }
 
 .team-section .section-title p{
@@ -366,6 +368,7 @@ p.copyright {
 	text-align: center;
 	margin:15px 0 0;
 	color:#ffffff;
+    position: relative;
 }
 .team-section .team-items{
 	
@@ -380,6 +383,7 @@ p.copyright {
  max-width: calc(25% - 30px);
  transition: all .5s ease;
  margin-bottom: 40px;
+ position: relative;
 }
 .team-section .team-items .item img{
 	display: block;
