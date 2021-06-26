@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(to bottom right, rgb(92, 92, 223), rgb(224, 130, 146));
+}
 nav{
     margin-bottom: 0rem;
 }
@@ -107,6 +110,55 @@ ul li:nth-child(5):hover ~ #marker::before{
     0 0 45px #df2fff,
     0 0 60px #df2fff;
 }
+@media (max-width: 1550px){
+    .navbar{
+        left: 30%;
+    }
+}
+@media (max-width: 1200px){
+    .navbar{
+        left: 25%;
+    }
+}
+@media (max-width: 988px){
+    .navbar{
+        left: 20%;
+    }
+    .navbar ul li a{
+        padding: 19px 11px;
+        font-size: 0.8em;
+        height: 59px;
+    }
+}
+@media (max-width: 600px){
+    .navbar{
+        left: 15%;
+    }
+    .navbar ul li a{
+        padding: 21px 10px;
+        font-size: 0.7em;
+        height: 55px;
+    }
+}
+@media (max-width: 495px){
+    .navbar{
+        left: 2%;
+    }
+    .navbar ul li a{
+        padding: 19px 10px;
+        font-size: 0.7em
+    }
+}
+@media (max-width: 300px){
+    .navbar{
+        left: 2%;
+    }
+    .navbar ul li a{
+        padding: 19px 7px;
+        font-size: 0.5em
+    }
+}
+
 /* footer start */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -223,7 +275,7 @@ p.copyright {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #11dbcf;
+    /* background-color: #11dbcf; */
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -332,7 +384,7 @@ p.copyright {
     color: #e61073;
 } */
 .team-section{
-	background-color:#11dbcf;
+	/* background-color:#11dbcf; */
 	min-height: 100vh;
 	padding:70px 15px 30px;
 }
@@ -471,7 +523,7 @@ p.copyright {
       display: flex;
       overflow-x: hidden;
       box-sizing: content-box;
-      background-color: #00d9ff;
+      /* background-color: #00d9ff; */
       animation: slider 30s infinite linear;
     }
     @keyframes slider{
@@ -748,7 +800,7 @@ p.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2196f3;
+    /* background: #2196f3; */
     overflow: hidden;
 }
 .swiper-container {
