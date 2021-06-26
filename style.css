@@ -32,13 +32,13 @@ nav{
     display: inline-block;
     padding: 19px 20px;
     font-weight: 300;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* background: rgba(255, 255, 255, 0.05); */
+    /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); */
+    /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
     z-index: 1000;
     overflow: hidden;
-    backdrop-filter: blur(15px);
+    /* backdrop-filter: blur(15px); */
     height: 63px;
 }
 .navbar ul li a::before{
@@ -48,7 +48,7 @@ nav{
     left: 0;
     width: 100%;
     height: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
 }
 .navbar ul li:first-child a{
     border-top-left-radius: 30px;
@@ -72,10 +72,10 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 69px;
-    height: 85px;
+    width: 29px;
+    height: 59px;
     background: #5da6ff;
-    border-radius: 50%;
+    border-radius: 11%;
     box-shadow: 0 0 15px #5da6ff,
     0 0 30px #5da6ff,
     0 0 45px #5da6ff,
@@ -112,7 +112,7 @@ ul li:nth-child(5):hover ~ #marker::before{
 }
 @media (max-width: 1550px){
     .navbar{
-        left: 30%;
+        left: -23%;
     }
 }
 @media (max-width: 1200px){
@@ -819,7 +819,8 @@ p.copyright {
     width: 320px;
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
     filter: blur(4px);
-    background: #d1ebff;
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+    /* background: #d1ebff; */
     border-radius: 10px;
   }
   .swiper-slide-active{
